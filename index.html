@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analog Clock</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+  <section class="clock container">
+    <div class="clock-container grid">
+      <div class="clock-content grid">
+        <div class="clock-circle grid">
+          <span class="clock-twelve"></span>
+          <span class="clock-three"></span>
+          <span class="clock-six"></span>
+          <span class="clock-nine"></span>
+
+          <div class="clock-rounder"></div>
+          <div class="clock-hour" id="clock-hour"></div>
+          <div class="clock-min" id="clock-min"></div>
+          <div class="clock-sec" id="clock-sec"></div>
+
+          <!-- DARK/LIGHT BUTTON -->
+          <div class="clock-theme">
+            <i class='bx bxs-moon' id="theme-button"></i>
+          </div>
+        </div>
+
+        <div>
+          <div class="clock-text">
+            <div class="clock-text-hour" id="text-hour"></div>
+            <div class="clock-text-min" id="text-min"></div>
+            <div class="clock-text-ampm" id="text-ampm"></div>
+          </div>
+
+          <div class="clock-date">
+            <div class="date-day" id="date-day"></div>
+            <div class="date-month" id="date-month"></div>
+            <div class="date-year" id="date-year"></div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="clock-logo">Akshit</a>
+    </div>
+  </section>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
